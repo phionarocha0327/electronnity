@@ -36,7 +36,7 @@ public class home extends HttpServlet {
     private void viewhome (HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         RequestDispatcher hm = getServletContext().getRequestDispatcher(
-                "/home.jsp");
+                "/shop.jsp");
         hm.forward(request, response);
     }
 }
